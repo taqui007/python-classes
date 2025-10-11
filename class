@@ -1,0 +1,21 @@
+n = int(input("enter a number:"))  
+target = int(input("Enter the target nuber:")) 
+found = False  
+first_number = 0  
+second_number = 0 
+for i in range(1, n + 1):  
+    for j in range(i + 1, n + 1): 
+        if i + j == target: 
+            first_number = i
+            second_number = j 
+            found = True 
+            break
+    if found: 
+        break
+
+if found:
+    print("the pair found is:", first_number, "and", second_number)
+    print("first number:", first_number) 
+    print("second number:", second_number) 
+else: 
+    print("pair not found") 
