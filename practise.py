@@ -399,24 +399,176 @@
 
 # ............................................................................
 
-l18=[1,2,3,4,5,6,]
-ev=[]
-od=[]
-for i in l18:
-    if i%2==0:
-        ev.append(i)
-    else:
-        od.append(i)
-print("EVEN:",ev)
-print("ODD:",od)
-        
-l18=[1,2,3,4,5,6,]
-ev=[]
-od=[]
-for i in l18:
-    if i%2==0:
-        ev.append(i)
-    else:
-        od.append(i)
-print("EVEN:",ev)
-print("ODD:",od)
+# l18=[1,2,3,4,5,6,]
+# ev=[]
+# od=[]
+# for i in l18:
+#     if i%2==0:
+#         ev.append(i)
+#     else:
+#         od.append(i)
+# print("EVEN:",ev)
+# print("ODD:",od)
+
+# ...................................................................
+
+# n=int(input("Enter the number:"))
+# l19=[x for x in range(n) if x%2==0 ]
+# print(l19)
+# s=sum(l19)
+# print(s)
+
+#(or)
+
+# n=int(input("Enter the number of elements:"))
+# l19=[int(input("Enter the element:")) for _ in range(n)]
+# s=sum(x for x in l19 if x%2==0)
+# print("Sum of even numbers:",s)
+
+# ..................................................................................
+
+# l20=[int(input(f"Enter the marks for subject{i+1}")) for i in range(5)]
+# s=sum(l20)
+# a=s/5
+# print("Sum of marks:",s)
+# print("Avg of marks:",a)
+
+# ..................................................................................
+
+# n=int(input("Enter the number:"))
+# l21=[x for x in range(1,n+1)if x%2==0 and x%3!=0]
+# print(l21)
+
+# ..................................................................................
+
+# m=[23,45,67]
+# n=[12,65,98,23,55]
+# l22=[]
+# x=min(len(m),len(n))
+# for i in range(x):
+#     l22.append(m[i])
+#     l22.append(n[i])
+# l22.extend(m[x:])
+# l22.extend(n[x:])
+# print(l22)
+
+# ....................................................................................
+
+# a=[11,22,14]
+# b=[45,77,88]
+# c=[90,99,55,10]
+# l23=[[a[i],b[i],c[i]] for i in range(min(len(a),len(b),len(c)))]
+# print(l23)
+
+# ......................................................................................
+
+# a=[11,22,14]
+# b=[45,77,88]
+# c=[90,99,55,10]
+# l24=[a[i]+b[i]+c[i] for i in range(min(len(a),len(b),len(c)))]
+# print(l24)
+
+# .......................................................................................
+
+# a=[11,22,14]
+# b=[45,77,88]
+# c=[90,99,55,10]
+# l25=[[a[i]%10,b[i]%10,c[i]%10] for i in range(min(len(a),len(b),len(c)))]
+# print(l25)
+
+# ........................................................................................
+
+# n=int(input("Enter the number:"))
+# s1=set()
+# for i in range(n):
+#     s1.add(i)
+# print(s1)
+
+# ..........................................................................................
+
+# n=int(input("Enter the number of tuples:"))
+# s2=set()
+# for i in range(n):
+#     print(f"Enter the elem for Tuple {i+1}")
+#     a=int(input("Enter the elem 1:"))
+#     b=int(input("Enter the elem 2:"))
+#     c=int(input("Enter the elem 3:"))
+#     t=(a,b,c)
+#     s2.add(t)
+# print(s2)
+
+# ...........................................................................................
+
+# n=int(input("Enter the number:"))
+# s3={x for x in range(2,n+1)}
+# print(s3)
+# for i in s3:
+#     sq=i**2
+#     print(f"The square of {i} is:",sq)
+
+# ............................................................................................
+
+# n=input("Enter the string:")
+# w=n.split()
+# s4=set(w)
+# for w in s4:
+#     print(w)
+
+# .............................................................................................
+
+# n=int(input("Enter the number:"))
+# s5={x for x in range(n)}
+# if len(s5)==0:
+#     print("The set is empty")
+# else:
+#     print("The set is not empty")
+
+# ..............................................................................................
+
+# e1=set()
+# e2=set()
+# m=int(input("Enter the number of elem:"))
+# n=int(input("Enter the number of elem:"))
+# e1={x for x in range(m)}
+# e2={x for x in range(n)}
+# print(e1)
+# print(e2)
+# cartesian_product={(x,y) for x in e1 for y in e2}
+# print(cartesian_product)
+
+#(or)
+
+# e1=set()
+# e2=set()
+# m=int(input("Enter the number of elem:"))
+# n=int(input("Enter the number of elem:"))
+# a1={x for x in range(m)}
+# a2={x for x in range(n)}
+# print(e1|a1)
+# print(e2|a2)
+# cartesian_product={(x,y) for x in a1 for y in a2}
+# print(cartesian_product)
+
+# ..........................................................................
+
+m=input("Enter the string1:")
+n=input("Enter the string2:")
+x=set(m.split())
+y=set(n.split())
+print(x)
+print(y)
+u=x&y
+if u:
+    print(u)
+else:
+    print("no common elements")
+
+
+
+
+
+
+
+    
+
+
