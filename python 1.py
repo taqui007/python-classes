@@ -203,7 +203,51 @@
 # else:
 #     print("done")
 
+# cube=lambda x:6+(x*x*x)
+# print(cube(2))
 
-    
+
+# a=input("Enter:")
+# print(a.count('$'))
+
+'''a=int(input("Enter the num:"))
+b=int(input("Enter the num:"))
+c=int(input("Enter the num:"))
+print()'''
+
+# list=[input("enter the values:")]
+# list1=list.split()
+# # list=[int(x) for x in list1]
+
+# print(list1)
+
+# list=[]
+# i = 0
+# while i < 6:
+#     a=int(input("enter a number:"))
+#     list.append(a)
+#     i += 1
+
+# print(list) 
+
+# a=int(input("Enter the num:"))
+# b=int(input("Enter the num:"))
+# c=int(input("Enter the num:"))
+# x=max(a,b,c)
+# print(x)
+
+l=[]
+a=input("Enter the movie 1:" )
+b=input("Enter the movie 2:" )
+c=input("Enter the movie 3:" )
+l.append(a,b,c)
+print(l)
+
+f=open('myfile.txt','r')
+# f.write('wow super')
+# text=f.read()
+# print(text)
+# f.close() 
+# f.truncate(3)
 
     

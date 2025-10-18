@@ -361,6 +361,7 @@
 
 # ....................................................................................
 
+#16
 # n=int(input("Enter the number:"))
 # seq=[i*i+1 for i in range(1,n+1)]
 # total=sum(seq)
@@ -551,24 +552,129 @@
 
 # ..........................................................................
 
-m=input("Enter the string1:")
-n=input("Enter the string2:")
-x=set(m.split())
-y=set(n.split())
-print(x)
-print(y)
-u=x&y
-if u:
-    print(u)
+# m=input("Enter the string1:")
+# n=input("Enter the string2:")
+# x=set(m.split())
+# y=set(n.split())
+# print(x)
+# print(y)
+# u=x&y
+# if u:
+#     print(u)
+# else:
+#     print("no common elements")
+
+# ...............................................................................
+
+# s1='wha4ts12ap1p'
+# for i in s1:
+#     if i.isdigit():
+#         print(int(i)**2, end=" ")
+
+# ...............................................................................
+
+# m='abc'
+# n='ab'
+# cartesian_product=[x+","+y for x in m for y in n]
+# print(" ".join(cartesian_product))
+
+# ...............................................................................
+
+# num='1234'
+# n=len(num)
+# total=0
+# for i in range(n):
+#     for j in range(i+1,n+1):
+#         total+=int(num[i:j])
+# print(total)
+
+#process=1+12+123+1234+2+23+234+3+34+4
+
+#(or)
+
+# str = "1234"
+# n = len(str)
+# l = []
+
+# for i in range(1,n+1):
+#     for j in range(i,n+1):
+#         l.append(str[i-1:j])
+
+# sum = 0
+# for i in l:
+#     sum += int(i)
+
+# print(l)
+# print(sum)
+
+# .................................................................................
+
+# s5="YOU AND PES"
+# print(s5.replace('YOU','I'))
+
+# ..................................................................................
+
+# str1='python'
+# str2='code'
+# l22=[]
+# x=min(len(str1),len(str2))
+# for i in range(x):
+#     l22.append(str1[i])
+#     l22.append(str2[i])
+# l22.extend(str1[x:])
+# l22.extend(str2[x:])
+# print(l22)
+# str = ""
+# for i in l22:
+#     str = str + i
+# print(str)
+
+# .............................................................
+
+# s1='whatsapp'
+# s2='wat'
+# l1 = list(s1)
+# l2 = list(s2)
+# print(l1)
+# print(l2)
+# for i in l2:
+#     for j in l1:
+#         if i == j:
+#             l1.remove(j)
+# print(l1)
+# str=""
+# for i in l1:
+#     str=str+i
+# print(str)
+
+# ...........................................................................
+
+# str="do or die"
+# for i in str:
+#     if 'd' in str:
+#         print(True)
+#         break
+#     else:
+#         print(False)
+
+#(or)
+
+# str="do or die"
+# x='d'
+# for i in str:
+#     if i==x :
+#         print(True)
+#         break
+#     else:
+#         print(False)
+
+# ...................................................................
+
+str1='elegant man'
+str2='a gentleman'
+str1=str1.replace(" ","")
+str2=str2.replace(" ","")
+if sorted(str1)==sorted(str2):
+    print("These are anagrams")
 else:
-    print("no common elements")
-
-
-
-
-
-
-
-    
-
-
+    print("These are not anagrams")
