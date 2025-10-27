@@ -236,18 +236,58 @@ print()'''
 # x=max(a,b,c)
 # print(x)
 
-l=[]
-a=input("Enter the movie 1:" )
-b=input("Enter the movie 2:" )
-c=input("Enter the movie 3:" )
-l.append(a,b,c)
-print(l)
+# l=[]
+# a=input("Enter the movie 1:" )
+# b=input("Enter the movie 2:" )
+# c=input("Enter the movie 3:" )
+# l.append(a,b,c)
+# print(l)
 
-f=open('myfile.txt','r')
+# f=open('myfile.txt','r')
 # f.write('wow super')
-# text=f.read()
-# print(text)
-# f.close() 
-# f.truncate(3)
+# # text=f.read()
+# # print(text)
+# # f.close() 
+# # f.truncate(3)
 
-    
+# numbers=[55,88,45,12]
+# for i in numbers:
+#  print(i, end =' ')
+
+
+# number=[10,20,30,40,50]
+# i=0
+# while(i<len(number)):
+#  print(number[i],end=' ') 
+#  i+=1
+
+
+# a = [10,20,30,40,50]
+# for i in a:
+#     print(i)
+
+# dict = {'a': 'pencil', 'b': 'eraser', 'c': 'sharpner'}
+# for key, value in dict.items():
+#  print(key, value)
+
+
+'mech 1 ch=i'
+'py codes=j'
+'ph,ele q prac=i'
+
+'thu,fri=i'
+'sat=j'
+'sun=mat'
+
+# n=[1,-1,-2]
+# for i in n:
+#     print(abs(i),end=" ")
+# x=abs(-123)
+# print(x)/
+
+def add():
+ a = 10 
+ b = 20 
+ return a+b
+add()
+

@@ -670,11 +670,43 @@
 
 # ...................................................................
 
-str1='elegant man'
-str2='a gentleman'
-str1=str1.replace(" ","")
-str2=str2.replace(" ","")
-if sorted(str1)==sorted(str2):
-    print("These are anagrams")
-else:
-    print("These are not anagrams")
+# str1='elegant man'
+# str2='a gentleman'
+# str1=str1.replace(" ","")
+# str2=str2.replace(" ","")
+# if sorted(str1)==sorted(str2):
+#     print("These are anagrams")
+# else:
+#     print("These are not anagrams")
+
+# ....................................................................
+
+# d1={}
+# for i in range(5):
+#  k=int(input("Enter the key:"))
+#  v=input("Enter the value:")
+#  d1[k]=v
+#  print(d1)
+# for k,v in d1.items():
+#  print(f"{k} ==> {v}")
+
+# ...................................................................
+
+# n=int(input("Enter the num:"))
+# d2={i:i*2 for i in range(1,n+1)}
+# print(d2)
+
+# ..................................................................
+
+# d3={}
+# n=int(input("Enter the num:"))
+# for i in range(n):
+#     name=input("Enter the name:")
+#     marks=int(input("Enter the marks:"))
+#     d3[name]=marks
+#     print(d3)
+# avg=sum(d3.values())/len(d3)
+# print(avg)
+
+# ....................................................................
+
